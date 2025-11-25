@@ -2,8 +2,9 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Main • Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
     <script src="assets/js/script.js" defer></script>
     <!-- Load i18n globally so translated elements are populated after menu injection -->
     <script src="assets/js/i18n.js" defer></script>
@@ -15,17 +16,13 @@
 </header>
 
 <div class="container">
+    <h1 class="section-title" data-i18n="portfolio_title"></h1>
 
-    <div class="main-layout">
-        <div class="main-photo"></div>
-
-        <div>
-            <h1 class="section-title" data-i18n="about_me"></h1>
-            <p data-i18n="welcome_message"></p>
-            <p data-i18n="introduction"></p>
-        </div>
+    <div class="works-grid">
+        <div class="work-card" data-i18n="work_1"></div>
+        <div class="work-card" data-i18n="work_2"></div>
+        <div class="work-card" data-i18n="work_3"></div>
     </div>
-
 </div>
 <!-- Load menu loader (fixed path) -->
 <script src="assets/js/menu.js"></script>
