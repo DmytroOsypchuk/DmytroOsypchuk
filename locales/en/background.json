@@ -1,7 +1,13 @@
 {
-    "background_title": "Background",
+    "background_title": "My Background",
     "education": "Education",
-    "experience": "Experience",
-    "timeline_1": "Timeline 1",
-    "timeline_2": "Timeline 2"
+    "experience": "Work Experience",
+
+    "education_item_1": "2018 – 2022 • Bachelor of Computer Science — Kharkiv National University of Radioelectronics",
+    "education_item_2": "2022 – 2024 • Master of Computer Science — Kharkiv National University of Radioelectronics",
+    "education_item_3": "April 2025 • EF SET English Certificate: score 74/100 (C2 Proficient)",
+
+    "experience_item_1": "2022 – present • Freelance Translator: Web, Games, Software",
+    "experience_item_2": "Fall 2024 • Ukrainian translation of Warcraft – Heartlands (community translation project)",
+    "experience_item_3": "Winter 2025 – Summer 2025 • Ukrainian localization of Dungeons 3 (community localization project)"
 }

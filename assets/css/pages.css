@@ -1,4 +1,64 @@
-/* pages.css — page-specific blocks for skills, certifications, hobbies, contacts */
+/* pages.css — page-specific blocks for background, skills, certifications, hobbies, contacts */
+
+/* BACKGROUND PAGE LAYOUT */
+.background-layout {
+    margin-top: 40px;
+}
+
+.background-columns {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.background-column {
+    flex: 1;
+}
+
+/* Section titles */
+.background-subtitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1fcbd1;
+}
+
+/* Vertical separator */
+.vertical-separator {
+    width: 2px;
+    background: #444444;
+    flex-shrink: 0;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid #444444;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    background: #1fcbd1;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px; /* Center dot on vertical line */
+    top: 4px;
+}
+
+.timeline-content {
+    margin-left: 15px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
 
 .skill-block {
     margin-bottom: 20px;
