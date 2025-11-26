@@ -1,0 +1,74 @@
+/* nav.css — menu and language dropdown styles */
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #E0E0E0;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: #888888 ;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+.lang-selector {
+    position: relative;
+}
+
+.separator {
+    width: 1px;
+    height: 25px;
+    background-color: #444444;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Dropdown base */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #121212;
+    color: #E0E0E0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Dropdown contents */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: B0B0B0;
+    border: 1px solid #444444 ;
+    min-width: 120px;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #E0E0E0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

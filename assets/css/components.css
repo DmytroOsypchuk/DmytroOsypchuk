@@ -1,0 +1,38 @@
+/* components.css — reusable components: cards, grids, main-photo, highlight-name */
+
+.main-layout {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.main-photo {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #121212 ;
+    box-shadow: #07434b 0px 0px 10px;
+}
+
+.highlight-name {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem; 
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #1fcbd1
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.work-card {
+    background: #121212 ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
