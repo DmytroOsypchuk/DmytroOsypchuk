@@ -1,6 +1,17 @@
 {
     "portfolio_title": "Portfolio",
-    "work_1": "Work 1",
-    "work_2": "Work 2",
-    "work_3": "Work 3"
+    "skills": "Skills",
+    "roles": "Roles",
+    "facts": "Facts",
+    "project_1_name": "Warcraft Heartlands - Ukrainian translation",
+    "project_1_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel urna nec orci elementum facilisis. Curabitur sodales ligula at magna suscipit, quis aliquam eros varius. Vivamus posuere, velit non bibendum fermentum, justo arcu ultrices orci, vel pretium nulla lectus sit amet urna.",
+    "project_1_skill_1": "Literary translation and stylistic adaptation of fantasy prose",
+    "project_1_skill_2": "Terminology and naming consistency",
+    "project_1_skill_3": "Editing and refining the text for natural Ukrainian flow",
+    "project_1_role_1": "Literary Translator",
+    "project_1_role_2": "Stylistic Editor",
+    "project_1_role_3": "Terminologist",
+    "project_1_fact_1": "Fact 1",
+    "project_1_fact_2": "Fact 2",
+    "project_1_fact_3": "Fact 3"
 }

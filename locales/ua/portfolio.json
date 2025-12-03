@@ -1,6 +1,17 @@
 {
     "portfolio_title": "Портфоліо",
-    "work_1": "Робота 1",
-    "work_2": "Робота 2",
-    "work_3": "Робота 3"
+    "skills": "Навички",
+    "roles": "Ролі",
+    "facts": "Факти",
+    "project_1_name": "Warcraft - Серцекрай – український переклад Warcraft - Heartlands",
+    "project_1_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel urna nec orci elementum facilisis. Curabitur sodales ligula at magna suscipit, quis aliquam eros varius. Vivamus posuere, velit non bibendum fermentum, justo arcu ultrices orci, vel pretium nulla lectus sit amet urna.",
+    "project_1_skill_1": "Художній переклад та стилістична адаптація фентезійної прози",
+    "project_1_skill_2": "Узгодження термінології та імен",
+    "project_1_skill_3": "Редагування та адаптація тексту для природнього звучання українською мовою",
+    "project_1_role_1": "Перекладач художнього тексту",
+    "project_1_role_2": "Літературний редактор",
+    "project_1_role_3": "Термінолог",
+    "project_1_fact_1": "Факт 1",
+    "project_1_fact_2": "Факт 2",
+    "project_1_fact_3": "Факт 3"
 }

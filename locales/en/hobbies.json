@@ -1,4 +1,15 @@
 {
-    "hobbies_title": "Hobbies",
-    "hobby_block": "Some images + text"
+    "hobbies_title": "Hobbies & Passions",
+
+    "hobby_1_title": "Photography",
+    "hobby_1_desc": "I enjoy capturing moments while travelling or exploring cities. Photography helps me notice beauty in everyday things.",
+
+    "hobby_2_title": "Board Games",
+    "hobby_2_desc": "I love strategy and cooperative board games. They sharpen thinking skills and are a great way to spend time with friends.",
+
+    "hobby_3_title": "Traveling",
+    "hobby_3_desc": "I try to visit a new place every year. New cultures and cities inspire creativity and broaden perspectives.",
+
+    "hobby_4_title": "Writing",
+    "hobby_4_desc": "Creating stories, notes, and short tales helps me organize my thoughts and grow my imagination."
 }

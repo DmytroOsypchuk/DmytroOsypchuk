@@ -1,6 +1,46 @@
 {
-    "skills_title": "Skills & Experience",
-    "skill_1": "Skill 1 points",
-    "skill_2": "Skill 2 points",
-    "skill_3": "Skill 3 points"
+  "skills_categories": "Skills",
+
+  "skills_language": "Language & Writing",
+  "skill_lang_1": "English — Ukrainian translation",
+  "skill_lang_2": "Creative and stylistic adaptation",
+  "skill_lang_3": "Consistency and tone-matching checks",
+  "skill_lang_4": "Game dialogue and narrative translation",
+  "skill_lang_5": "Technical writting and documentation",
+
+  "skills_technical": "Technical Skills",
+  "skill_tech_1": "Frequency and keyword analysis",
+  "skill_tech_2": "Text formatting and normalization",
+  "skill_tech_3": "Dashboard/report creation",
+  "skill_tech_4": "Data visualization",
+  "skill_tech_5": "Readability and sentence-length profiling",
+  "skill_tech_6": "Scripting for text processings",
+  "skill_tech_7": "Verifying string integrity",
+
+  "skills_tools": "Tools",
+  "skill_tool_1": "CAT tools: Crowdin, OmegaT",
+  "skill_tool_2": "Version Control: Git and GitHub",
+  "skill_tool_3": "Unity text extraction and modding basics",
+  "skill_tool_4": "Data & Analytics: Tableau, Google Sheets/, Python",
+  "skill_tool_5": "File Formats: JSON, XML, CSV, XLSX, YAML, PO",
+  "skill_tool_6": "Dev Tools: regex, IDEs, text editors",
+
+  "experience": "Experience",
+
+  "block_1": "2022 – present",
+  "block_1_content": "Freelance Translator & Localization Specialist — Working with English–Ukrainian translations for web content, games, software, and digital products",
+
+  "block_2": "2024 – present",
+  "block_2_content": "Participation in non-commercial game localization projects — Contributing to community-driven Ukrainian localizations of video game content",
+
+  "block_3": "2021",
+  "block_3_content": "Crowdin Volunteer Program — Participated in the localization of a JetBrains project",
+
+  "publications": "Publications",
+  
+  "publication_1": "2025  •  Co-author",
+  "publication_1_content": "Method for Assessing the Complexity of an IT Project for Video Game Localization",
+
+  "publication_2": "2024  •  Author",
+  "publication_2_content": "Analysis of indicators affecting the complexity of the localization of information systems"
 }

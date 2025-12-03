@@ -1,6 +1,7 @@
 /* pages.css — page-specific blocks for background, skills, certifications, hobbies, contacts */
 
-/* BACKGROUND PAGE LAYOUT */
+/* === Background Page === */
+
 .background-layout {
     margin-top: 40px;
 }
@@ -59,13 +60,156 @@
     line-height: 1.6;
 }
 
+/* === Portfolio Page === */
 
-.skill-block {
-    margin-bottom: 20px;
+.project-card {
+    border: 1px solid var(--border-color);
     padding: 20px;
-    background: #121212 ;
+    border-radius: 12px;
+    background: var(--bg-block);
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+/* Floated preview image */
+.project-preview.floated {
+    float: left;
+    width: 280px;
+    max-width: 40%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    object-fit: cover;
+}
+
+
+.project-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.project-title-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.project-title-link:hover {
+    text-decoration: underline;
+}
+
+.project-description {
+    line-height: 1.6;
+}
+
+/* Two-column Skills/Roles block */
+.project-two-columns {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    clear: both; /* ensures this block starts BELOW the floated image */
+}
+
+.project-two-columns .project-section {
+    width: 50%;
+}
+
+/* Facts */
+.project-facts {
+    margin-top: 20px;
+    clear: both; /* guaranteed full-width start */
+}
+
+.project-section h3 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.project-section ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+/* === Skills Page === */
+/* Layout for both columns */
+.skills-experience-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+/* Column titles */
+.column-title {
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #1f99d1;
+}
+
+/* Skills section */
+.skill-category {
+    background: #121212;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: #000 0px 0px 6px;
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #1fcbd1;
+}
+
+.skill-category ul {
+    padding-left: 20px;
+}
+
+.skill-category li {
+    margin-bottom: 6px;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    border-left: 2px solid #333;
+}
+
+/* Header container */
+.timeline-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 8px;                 
+}
+
+/* Item container */
+.timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Date */
+.timeline-date {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1fcbd1;
+    margin-bottom: 5px;
+}
+
+/* Description */
+.timeline-content {
+    background: #121212;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: #000 0px 0px 6px;
 }
 
 .cert-grid {
@@ -81,12 +225,60 @@
     border-radius: 10px;
 }
 
+/* === Hobby Page === */
 .hobby-block {
     background: #121212 ;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Hobbies list */
+.hobbies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Hobby card */
+.hobby-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #3a3a3a;
+    border-radius: 12px;
+    background: #121212;
+}
+
+/* Different photo sides */
+.hobby-card.odd {
+    flex-direction: row-reverse;/* right */
+}
+
+.hobby-card.even {
+    flex-direction: row-reverse; /* left */
+}
+
+/* Hobby image and text */
+.hobby-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+.hobby-text h2 {
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.hobby-text p {
+    line-height: 1.4;
+    color: #cfcfcf;
 }
 
 .contact-list div {
