@@ -1,4 +1,8 @@
-let currentLang = localStorage.getItem("lang") || "uk";
+let currentLang = localStorage.getItem("lang");
+if (!currentLang) {
+    currentLang = "en";               // DEFAULT LANGUAGE
+    localStorage.setItem("lang", "en");
+}
 
 function getPageName() {
     // Determine logical page name: if URL has a filename, use it (without extension), otherwise 'index'
