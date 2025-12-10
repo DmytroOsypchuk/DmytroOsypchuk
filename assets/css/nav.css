@@ -1,5 +1,4 @@
-/* nav.css — menu and language dropdown styles */
-
+/* === Base link style === */
 nav a {
     margin: 0 10px;
     text-decoration: none;
@@ -7,36 +6,95 @@ nav a {
     padding: 6px 10px;
     border-radius: 6px;
     text-align: center;
+    transition: background 0.2s ease;
 }
 
-nav a:hover {
-    background: #888888 ;
+nav a:hover,
+nav a:focus {
+    background: #888888;
 }
 
+/* === Navigation container === */
 .main-nav {
+    position: sticky;
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
     padding: 10px 20px;
+    background: #121212;
     font-family: sans-serif;
 }
 
+/* === Language selector === */
 .lang-selector {
     position: relative;
 }
 
+.lang-btn {
+    background: #1e1e1e;
+    color: #E0E0E0;
+    border: 1px solid #444;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.lang-dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #1e1e1e;
+    border: 1px solid #444;
+    border-radius: 8px;
+    min-width: 150px;
+}
+
+.lang-dropdown.open {
+    display: block;
+}
+
+.lang-dropdown a {
+    display: block;
+    padding: 10px;
+    color: #E0E0E0;
+    text-decoration: none;
+}
+
+.lang-dropdown a:hover {
+    background: #333;
+}
+
+/* === Separator line === */
 .separator {
     width: 1px;
-    height: 25px;
+    height: 40px;
+    align-self: center;
     background-color: #444444;
 }
 
+/* === Navigation links (desktop) === */
 .nav-links {
     display: flex;
     gap: 20px;
 }
 
-/* Dropdown base */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow: hidden;        
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a:hover {
+    background: #888888;
+}
+
+/* === Dropdown === */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -48,28 +106,90 @@ nav a:hover {
     border: none;
     cursor: pointer;
     font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 6px;
 }
 
-/* Dropdown contents */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: B0B0B0;
-    border: 1px solid #444444 ;
+    background-color: #121212;
+    border: 1px solid #B0B0B0;
     min-width: 120px;
-    z-index: 10;
+    z-index: 50;
+    border-radius: 6px;
+}
+
+.dropdown-content.open {
+    display: block;
 }
 
 .dropdown-content a {
     display: block;
     padding: 8px 12px;
+    color: #E0E0E0;
+    border-radius: 0;
 }
 
 .dropdown-content a:hover {
-    background-color: #E0E0E0;
+    background-color: #777777;
 }
 
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-content {
+/* Dropdown on hover */
+/* dropdown:hover .dropdown-content {
     display: block;
+} */
+
+/* === Burger button === */
+.burger {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #E0E0E0;
+    cursor: pointer;
+    display: none; 
+}
+
+/* === Mobile mode === */
+@media (max-width: 800px) {
+
+    .main-nav {
+        width: 95vw;
+        padding: 10px;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: #1e1e1e;
+        border: 1px solid #444;
+        border-radius: 8px;
+        flex-direction: column;
+        padding: 15px;
+        gap: 10px;
+        min-width: 200px;
+        z-index: 20;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        display: block;
+    }
+
+    .burger {
+        display: block;
+        margin-left: auto;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
 }

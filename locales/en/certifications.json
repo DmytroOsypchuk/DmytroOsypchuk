@@ -1,6 +1,13 @@
 {
-    "certifications_title": "Certifications",
-    "cert_1": "Certificate 1",
-    "cert_2": "Certificate 2",
-    "cert_3": "Certificate 3"
+    "cert_1_name": "Bachelor of Computer Science",
+    "cert_1_from": "Issued by: Kharkiv National University of Radio Electronics",
+
+    "cert_2_name": "Master of Computer Science",
+    "cert_2_from": "Issued by: Kharkiv National University of Radio Electronics",
+
+    "cert_3_name": "English Proficiency Certification: C2 Proficient",
+    "cert_3_from": "Issued by: Education First",
+
+    "cert_4_name": "Crowdin's volunteering program",
+    "cert_4_from": "Issued by: Crowdin"
 }

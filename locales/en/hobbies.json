@@ -1,15 +1,16 @@
 {
-    "hobbies_title": "Hobbies & Passions",
+    "hobby_1_title": "Curiosity & Inquisitiveness",
+    "hobby_1_desc": "I'm curious about everything — I have a chronic thirst for knowledge. If I see something I don't understand, my inner explorer kicks in, and I won't rest until I figure out exactly how it works. And yes, sometimes it takes me too far — but who said that's a bad thing?",
 
-    "hobby_1_title": "Photography",
-    "hobby_1_desc": "I enjoy capturing moments while travelling or exploring cities. Photography helps me notice beauty in everyday things.",
+    "hobby_2_title": "Video Games",
+    "hobby_2_desc": "Video games are my saving point and an inexhaustible source of inspiration. They were the ones who whispered to me one day: “Let’s Ukrainianize this world?” — and since then I’ve been constantly translating, adapting, or modifying something. If I didn’t love games, I probably wouldn’t have delved so deeply into localization — but fate made the choice for me.",
 
-    "hobby_2_title": "Board Games",
-    "hobby_2_desc": "I love strategy and cooperative board games. They sharpen thinking skills and are a great way to spend time with friends.",
+    "hobby_3_title": "TV Series",
+    "hobby_3_desc": "Feel free to argue, but House M.D. remains the best TV show ever made. If you disagree, I have a cane with your name on it. Consider the hint delivered.",
 
-    "hobby_3_title": "Traveling",
-    "hobby_3_desc": "I try to visit a new place every year. New cultures and cities inspire creativity and broaden perspectives.",
+    "hobby_4_title": "Book Reading",
+    "hobby_4_desc": "Finding a book that truly hooks me is a full-blown quest with a “legendary” difficulty rating. But if such a book does appear, consider me gone — I vanish from reality entirely. And if you suddenly need me, just pray the book ends before that moment (and that it doesn’t turn out to have a sequel).",
 
-    "hobby_4_title": "Writing",
-    "hobby_4_desc": "Creating stories, notes, and short tales helps me organize my thoughts and grow my imagination."
+    "hobby_5_title": "Blog Writing",
+    "hobby_5_desc": "I started describing my work in the form of blogs to explain what I do every day in a simple and accessible way. It helps me organize my thoughts while also sharing useful insights with others. Plus, the blog is a great place to admit that in the life of a localizer, there’s sometimes more detective work than in actual detective novels."
 }

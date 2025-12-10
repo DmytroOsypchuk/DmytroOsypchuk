@@ -1,17 +1,43 @@
 {
-    "portfolio_title": "Portfolio",
     "skills": "Skills",
     "roles": "Roles",
     "facts": "Facts",
+
+    "project_2_name": "Dungeons 3 - Ukrainian localization",
+    "project_2_description_1": "Community-driven Ukrainian localization of Dungeons 3, which covered all stages of creating a full game localization — from receiving and organizing the original texts to translating, editing, technical integration, game modding, and in-game testing. The project involved adapting dialogues, narration, jokes, and cultural references to ensure they sounded natural for Ukrainian players while preserving the game’s signature humor and tone.",
+    "project_2_description_2": "In addition to linguistic work, the process included handling technical aspects such as file extraction, tag and variable integrity, font editing, UI adjustments, asset preparation, and reintegration into the game. During this project, I worked through every step of the localization workflow and delved into the specifics of each role, from linguistic adaptation to technical implementation, gaining comprehensive hands-on experience across the entire pipeline.",
+    
+    "project_2_skill_1": "Literary translation & Stylistic adaptation",
+    "project_2_skill_2": "Culturalization & Humor adaptation",
+    "project_2_skill_3": "Terminology consistency & Glossary management",
+    "project_2_skill_4": "In-context editing and text polishing",
+    "project_2_skill_5": "Font editing & integration of custom character sets",
+    "project_2_skill_6": "Unity asset extraction & basic game modding",
+    "project_2_skill_7": "Testing builds and text fit",
+    
+    "project_2_role_1": "Translator (Game Localization)",
+    "project_2_role_2": "Editor / Stylistic Editor",
+    "project_2_role_3": "Technical Localization Specialist",
+    "project_2_role_4": "Localization QA Tester",
+    "project_2_role_5": "Localization Manager",
+    
+    "project_2_fact_1": "Served as a foundation for further research and projects, including content analysis and tool development.",
+    "project_2_fact_2": "Some jokes required a deep dive into the music industry to make them land in Ukrainian.",
+    "project_2_fact_3": "Presenting the localization turned me into the embodiment of Absolute Evil.",
+
     "project_1_name": "Warcraft Heartlands - Ukrainian translation",
-    "project_1_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel urna nec orci elementum facilisis. Curabitur sodales ligula at magna suscipit, quis aliquam eros varius. Vivamus posuere, velit non bibendum fermentum, justo arcu ultrices orci, vel pretium nulla lectus sit amet urna.",
-    "project_1_skill_1": "Literary translation and stylistic adaptation of fantasy prose",
-    "project_1_skill_2": "Terminology and naming consistency",
+    "project_1_description_1": "Community-driven Ukrainian translation of Warcraft – Heartlands. During this project, I translated and edited the full text, ensuring stylistic consistency, accurate terminology, and faithful adaptation of the original tone. The completed translation was then published as a fully accessible website, allowing fans to read the story in Ukrainian.",
+    "project_1_description_2": "The project combined literary translation, stylistic editing, and web publishing, giving me hands-on experience in presenting localized content in a digital format while maintaining readability and immersion for the audience.",
+    
+    "project_1_skill_1": "Literary translation and stylistic adaptation",
+    "project_1_skill_2": "Terminology consistency and glossary management",
     "project_1_skill_3": "Editing and refining the text for natural Ukrainian flow",
-    "project_1_role_1": "Literary Translator",
-    "project_1_role_2": "Stylistic Editor",
-    "project_1_role_3": "Terminologist",
-    "project_1_fact_1": "Fact 1",
-    "project_1_fact_2": "Fact 2",
-    "project_1_fact_3": "Fact 3"
+    "project_1_skill_4": "Front-end development and website publishing",
+    
+    "project_1_role_1": "Translator (Literary Text)",
+    "project_1_role_2": "Editor / Stylistic Editor",
+    "project_1_role_3": "Technical Specialist (front-end development & web publishing)",
+    
+    "project_1_fact_1": "Published as a fully accessible website, making the translation available to fans.",
+    "project_1_fact_2": "Maintained original tone and immersion, ensuring the story felt natural and engaging in Ukrainian."
 }

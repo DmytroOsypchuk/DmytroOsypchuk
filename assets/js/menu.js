@@ -7,6 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(html => {
             container.innerHTML = html;
 
+            // After inserting menu, activate burger logic
+            initMenuScripts();
+
+            // Activate language button click
+            initLangButton();
+
             // After menu is loaded – set current language and populate translations
             const currentLang = localStorage.getItem("lang") || "uk";
             setLangLabel(currentLang);
@@ -19,8 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
-// NOTE: setLang is provided by the global i18n loader (assets/js/i18n.js).
-// This function overrides it to also update the language label in the menu.
+// Set the language label on the language switch button
 function setLangLabel(lang) {
     const btn = document.getElementById("current-lang");
     if (!btn) return;
@@ -28,4 +33,48 @@ function setLangLabel(lang) {
     // Accept both 'uk' and 'ua' as Ukrainian codes
     const isUkr = (lang === 'uk' || lang === 'ua');
     btn.textContent = isUkr ? 'UA' : 'EN';
+}
+
+// Initialize burger menu functionality
+function initMenuScripts() {
+    const burger = document.getElementById("burger-btn");
+    const links = document.getElementById("nav-links");
+
+    if (!burger || !links) {
+        console.error("Menu not found");
+        return;
+    }
+
+    // Toggle menu on burger click
+    burger.addEventListener("click", (e) => {
+        e.stopPropagation(); // prevent document click from firing
+        links.classList.toggle("show");
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener("click", (e) => {
+        if (!links.contains(e.target) && !burger.contains(e.target)) {
+            links.classList.remove("show");
+        }
+    });
+}
+
+// Initialize language button click
+function initLangButton() {
+    const dropbtn = document.getElementById("current-lang");
+    if (!dropbtn) return;
+
+    const dropdown = dropbtn.nextElementSibling;
+    if (!dropdown) return;
+
+    // Toggle dropdown on click
+    dropbtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle("open");
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", () => {
+        dropdown.classList.remove("open");
+    });
 }

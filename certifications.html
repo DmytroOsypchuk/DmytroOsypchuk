@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/pages.css">
-    <script src="assets/js/script.js" defer></script>
-    <!-- Load i18n globally so translated elements are populated after menu injection -->
     <script src="assets/js/i18n.js" defer></script>
 </head>
 
@@ -17,13 +15,35 @@
     <div id="menu-container"></div>
 </header>
 
-<div class="container">
-    <h1 class="section-title" data-i18n="certifications_title"></h1>
+<div class="container certifications-container">
 
     <div class="cert-grid">
-        <div class="cert-card" data-i18n="cert_1"></div>
-        <div class="cert-card" data-i18n="cert_2"></div>
-        <div class="cert-card" data-i18n="cert_3"></div>
+
+        <!-- Certificate block -->
+        <a href="https://drive.google.com/file/d/1wcSJvJDoSyuUQrlLEQ0NNZo2UPue4IpT/view?usp=sharing" class="cert-card" target="_blank">
+            <img src="assets/image/certifications/bachelor's_diploma.jpg" alt="Certificate preview">
+            <h3 data-i18n="cert_1_name"></h3>
+            <p data-i18n="cert_1_from"></p>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1c1IQusBwMvnzfohHeOdITSEKWT2KJyr2/view?usp=sharing" class="cert-card" target="_blank">
+            <img src="assets/image/certifications/master's_diploma.jpg" alt="Certificate preview">
+            <h3 data-i18n="cert_2_name"></h3>
+            <p data-i18n="cert_2_from"></p>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1VsGZHULUsTRVmt1kFGtm6Tg-gGDJTliC/view?usp=sharing" class="cert-card" target="_blank">
+            <img src="assets/image/certifications/english_certification.jpg" alt="Certificate preview">
+            <h3 data-i18n="cert_3_name"></h3>
+            <p data-i18n="cert_3_from"></p>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1FGyCdQwDoHVDRllhM1uVlEr3g8KvTA2k/view?usp=sharing" class="cert-card" target="_blank">
+            <img src="assets/image/certifications/crowdin.jpg" alt="Certificate preview">
+            <h3 data-i18n="cert_4_name"></h3>
+            <p data-i18n="cert_4_from"></p>
+        </a>
+
     </div>
 </div>
 <!-- Load menu loader (fixed path) -->
